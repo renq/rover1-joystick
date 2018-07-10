@@ -1,11 +1,14 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:colorControlActivated">#ff00fb</item>
+        <item name="android:colorControlNormal">#00b0ff</item>
     </style>
 
     <style name="FullscreenTheme" parent="AppTheme">
@@ -19,5 +22,12 @@
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>
     </style>
+
+    <!--<style name="MySeekBar" parent="Widget.AppCompat.SeekBar">-->
+        <!--<item name="android:progressBackgroundTint">#f4511e</item>-->
+        <!--<item name="android:progressTint">#388e3c</item>-->
+        <!--<item name="android:colorControlActivated">#c51162</item>-->
+        <!--<item name="android:">#c51162</item>-->
+    <!--</style>-->
 
 </resources>
